@@ -1,0 +1,38 @@
+[English](link:README.adoc[]) | [日本語](link:README_ja.adoc[])
+
+= SPIKE Transporter
+
+(sorry, under construction...)
+
+LEGO SPIKE Transporter (case of container falling) レゴスパイクで作った荷物運搬車
+
+This is a transport vehicle made using LEGO SPIKE PRIME kit.  We call it the "Spike Transporter".
+
+This vehicle consists of a base with two motors, a line monitor (color sensor), a side wall monitoring section (ultrasonic sensor), and a loading platform (touch sensor).
+
+Processing details of the sample program:
+
+1) start program
+
+2) waiting for laoding container on carrier.
+
+3) after loading, waiting for push left button.
+
+4) then vehicle run with following the line.
+
+5) when side wall detected, vehicle will stop.
+
+6) Once the container is unloaded, it will run along the line again.
+
+7) When the vehicle detects the side wall again, the vehicle will stop.
+
+LEGO SPIKE PRIMEのキットを使って製作した、経路に沿って荷物（コンテナ）を運搬するロボットです。
+1）荷物を乗せて左ボタンを押すと、経路に沿って走行します。
+2）運搬中に荷物が落ちると、停止して、荷物が戻されるのを待ちます。
+（5秒ごとに警告音を鳴らします）
+3）側壁を検知すると、停止します。
+4）荷物がおろされると、再び走行します。
+5）再び側壁を検知したら、業務を終了（停止）します。
+
+BrickLink page
+https://www.bricklink.com/r3/studio/design.page?idModel=541490
