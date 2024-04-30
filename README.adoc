@@ -11,7 +11,7 @@ When the cargo is dropped duaring transporting, the vehicle stops temporarily, a
 ****
 Check out my gallery on Bricklink <<bricklink_my_page>> for similar information.
 
-* https://www.bricklink.com/v3/studio/design.page?idModel=541490[Bricklinkのギャラリーページ, window=_blank]
+* https://www.bricklink.com/v3/studio/design.page?idModel=541490[my gallery on Bricklink, window=_blank]
 ****
 
 .Transporter using LEGO SPIKE PRIME kit
