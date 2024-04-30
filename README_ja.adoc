@@ -7,19 +7,24 @@
 荷物（コンテナ）を受け取り、配達先へ届け、その後車庫まで移動します。
 荷物が落下したら一時停止し、荷物が載せられると、運搬を再開します。
 
-NOTE: Bricklinkの私のギャラリー <<bricklink_my_page>> にも類似の情報をアップしてあります。
-* https://www.bricklink.com/v3/studio/design.page?idModel=541490[window=_blank]
+[NOTE]
+****
+Bricklinkの私のギャラリー <<bricklink_my_page>> にも類似の情報をアップしてあリますので、訪ねてみてください。
+
+* https://www.bricklink.com/v3/studio/design.page?idModel=541490[Bricklinkのギャラリーページ, window=_blank]
+****
+
 
 .LEGO SPIKE PRIMEのキットで製作した自動搬送車
 image::movies_photos/spike_transporter_front.jpeg[width="60%"]
 
 == 製作の動機
 
-私は、 LEGO Mindstorms EV3 <<ev3>> のキットを使って自動荷物運搬車を製作していました。
+私は、 LEGO Mindstorms EV3 <<ev3>> のキットを使って自動荷物運搬車を製作し、講義や研修で利用していました。
 しかし、EV3は2021年に販売終了となり、今後は入手しにくくなりました。
-そこで、後継の製品となるLEGO SPIKE PRIMEのキットを使って類似の自動荷物運搬車を製作しようと考えました。
+そこで、後継の製品となるLEGO SPIKE PRIMEのキットを使って、類似の自動荷物運搬車を製作しようと考えました。
 
-== 自動搬送車の構成
+== 自動荷物搬送車の構成
 
 自動搬送車はいくつかのユニットで構成されています。
 
@@ -71,16 +76,18 @@ image::images/spike_transporter_container.png[width="80%"]
 .組立図のページの例
 image::images/build_instruction_sample_page.png[width="80%"]
 
-== 開発環境と動作
+== 開発環境とプログラム
 
 自動荷物運搬車のソフトウェアの開発環境、サンプルプログラム、サンプルプログラムの動作の様子です。
 
 === 開発環境
 
-プログラムの開発には、LEGO SPIKEアプリケーションを使いました。
-もちろん、SPIKEのラージハブで利用できるのでしたら、他のプログラミング言語でもかまわないでしょう。
+プログラムの開発には、LEGO Education SPIKEアプリケーション <<spike_app>> を使いました。
+
+NOTE: もちろん、SPIKEのラージハブで利用できるのでしたら、他のプログラミング言語でもかまわないでしょう。
+
 プログラミング方法は、Scratchと同じようなものです。
-ただし、Scratchは異なり、SPIKEのハブの操作、センサーからや値を取得する、モーターを動かすといった制御ブロックやコマンド部rっくが用意されています。
+ただし、Scratchとは異なり、SPIKEのハブを操作する、センサーからや値を取得する、モーターを動かすといったブロックが用意されています。
 
 === サンプルプログラム
 
@@ -99,6 +106,7 @@ NOTE: この画像ではなく、プログラム自体を共有する方法が�
 次のような手順で動作します。
 
 .サンプルプログラムの動作
+. プログラムを起動します。
 . 荷物を乗せて左ボタンを押すと、経路に沿って走行します。
 . 運搬中に荷物が落ちると、停止して、荷物が戻されるのを待ちます。（5秒ごとに警告音を鳴らします）
 . 側壁を検知すると、停止します。
@@ -107,19 +115,15 @@ NOTE: この画像ではなく、プログラム自体を共有する方法が�
 
 ステートマシン図（状態遷移図の一種）で表すと、次のようになります。
 
+.サンプルプログラムのステートマシン図
 image::images/spike_transporter_statemachine.png[width=80%]
 
-=== 実行時の様子
+=== 実行時の動画
 
-[cols="1,1",frame=none,grid=none]
-|===
-a|.荷物を運搬する（通常動作）
-video::movies_photos/spike_transporter_normal.mov[width=320]
-a|.荷物を運搬する（途中で荷物が落下）
-video::movies_photos/spike_transporter_cargo_fell_down.mov[width=320]
-|===
+前半は荷物を運搬する動作、後半は荷物が落ちた場合の動作です。
 
-// A cargo fell down the carrier.
+.実行の様子
+video::nSAXWkLJDxE[youtube,width=640,height=480]
 
 == コンテンツの構造
 
@@ -140,3 +144,5 @@ spike_transporter
 ** https://www.bricklink.com/v3/studio/design.page?idModel=541490
 - [[[ev3]]] Lego Mindstorms EV3
 ** https://ja.wikipedia.org/wiki/Lego_Mindstorms_EV3
+- [[[spike_app]]] LEGO Education SPIKE App
+** https://education.lego.com/ja-jp/downloads/spike-app/software/
