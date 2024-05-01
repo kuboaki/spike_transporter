@@ -122,8 +122,16 @@ image::images/spike_transporter_statemachine.png[width=80%]
 
 前半は荷物を運搬する動作、後半は荷物が落ちた場合の動作です。
 
-.実行の様子
+.実行の様子（YouTube）
 video::nSAXWkLJDxE[youtube,width=640,height=480]
+
+[NOTE]
+====
+GitHubのプレビューでは `adoc` ファイルのYouTubeタグが処理されないようです。下記を参照してください。
+
+.実行の様子（YouTube）
+* https://www.youtube.com/watch?v=nSAXWkLJDxE
+====
 
 == コンテンツの構造
 

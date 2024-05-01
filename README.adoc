@@ -127,6 +127,14 @@ The first part shows normal transporting the cargo, and the next shows operation
 .Demo video(sorry, subtitles are only in japanese)
 video::nSAXWkLJDxE[youtube,width=640,height=480]
 
+[NOTE]
+====
+GitHub preview doesn't seem to process YouTube tags in `adoc` files. Please refer to the following link.
+
+.Demo video（YouTube）
+* https://www.youtube.com/watch?v=nSAXWkLJDxE
+====
+
 == Contents structure
 
 [source,console]
