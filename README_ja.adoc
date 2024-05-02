@@ -62,7 +62,7 @@ SPIKEのフォースセンサー（タッチセンサーの仲間）を使って
 |===
 a|.荷台
 image::images/spike_transporter_carrier.png[width="120%"]
-a|.コンテナ
+a|.荷物（コンテナ）
 image::images/spike_transporter_container.png[width="80%"]
 |===
 
@@ -71,7 +71,7 @@ image::images/spike_transporter_container.png[width="80%"]
 
 組立図は、Bricklink Studio で作成しました。
 
-* Link:images/spike_transporter_instructions.pdf[自動荷物運搬車の組立図（PDF）]
+* link:images/spike_transporter_instructions.pdf[自動荷物運搬車の組立図（PDF）]
 
 .組立図のページの例
 image::images/build_instruction_sample_page.png[width="80%"]

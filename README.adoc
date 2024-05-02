@@ -58,7 +58,7 @@ image::images/spike_transporter_walldetector.png[width="40%"]
 
 === Carrier and Container
 
- loading platform is a place where cargo (containers) are placed. We are monitoring the presence of luggage.
+The carrier unit is a place where cargo (container) is loaded. It monitors whether there is cargo or not.
 
 The carrier unit is used  SPIKE's force sensor (like a touch sensor).
 
@@ -66,7 +66,7 @@ The carrier unit is used  SPIKE's force sensor (like a touch sensor).
 |===
 a|.Carrier
 image::images/spike_transporter_carrier.png[width="120%"]
-a|.Container
+a|.Cargo(Container)
 image::images/spike_transporter_container.png[width="80%"]
 |===
 
@@ -74,7 +74,7 @@ image::images/spike_transporter_container.png[width="80%"]
 
 Building instruction were created using "Bricklink Studio".
 
-* Link:images/spike_transporter_instructions.pdf[Building instruction（PDF）]
+* link:images/spike_transporter_instructions.pdf[Building instruction（PDF）]
 
 .sample pages of the building instruction
 image::images/build_instruction_sample_page.png[width="80%"]
