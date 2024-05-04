@@ -1,6 +1,6 @@
-[English](link:README.adoc[]) | [日本語](link:README_ja.adoc[])
+[English](link:README.html[]) | [日本語](link:README_ja.html[])
 
-= SPIKE Transporter
+== SPIKE Transporter
 
 [.lead]
 「Spike Transporter」は、LEGO SPIKE PRIME <<spike>>  のキットを使って製作した自動荷物運搬車です。
@@ -18,18 +18,18 @@ Bricklinkの私のギャラリー <<bricklink_my_page>> にも類似の情報を
 .LEGO SPIKE PRIMEのキットで製作した自動搬送車
 image::movies_photos/spike_transporter_front.jpeg[width="60%"]
 
-== 製作の動機
+=== 製作の動機
 
 私は、 LEGO Mindstorms EV3 <<ev3>> のキットを使って自動荷物運搬車を製作し、講義や研修で利用していました。
 しかし、EV3は2021年に販売終了となり、今後は入手しにくくなりました。
 そこで、後継の製品となるLEGO SPIKE PRIMEのキットを使って、類似の自動荷物運搬車を製作しようと考えました。
 
-== 自動荷物搬送車の構成
+=== 自動荷物搬送車の構成
 
 自動搬送車はいくつかのユニットで構成されています。
 
 
-=== ベースユニット
+==== ベースユニット
 
 ベースユニットは、2つの車輪と後部のボールで地面を走行するユニットです。
 SPIKEのラージハブと2つのミディアム・モーターを使っています。
@@ -37,7 +37,7 @@ SPIKEのラージハブと2つのミディアム・モーターを使ってい�
 .ベースユニット
 image::images/spike_transporter_base.png[width="60%"]
 
-=== 経路監視ユニット
+==== 経路監視ユニット
 
 経路監視ユニットは、自動荷物搬送車が走行する経路（黒いライン）を監視します。
 SPIKEのカラーセンサーを使っています。
@@ -45,7 +45,7 @@ SPIKEのカラーセンサーを使っています。
 .経路監視ユニット
 image::images/spike_transporter_linemon.png[width="60%"]
 
-=== 側壁監視ユニット
+==== 側壁監視ユニット
 
 側壁監視ユニットは、荷物（コンテナ）の配達先の壁や回送先の車庫の壁を認識します。
 SPIKEの超音波センサーを使っています。
@@ -53,7 +53,7 @@ SPIKEの超音波センサーを使っています。
 .側壁監視ユニット
 image::images/spike_transporter_walldetector.png[width="40%"]
 
-=== 荷台とコンテナ
+==== 荷台とコンテナ
 
 荷台は、荷物（コンテナ）を載せる場所です。荷物の有無を監視しています。
 SPIKEのフォースセンサー（タッチセンサーの仲間）を使っています。
@@ -67,7 +67,7 @@ image::images/spike_transporter_container.png[width="80%"]
 |===
 
 
-== 組立図
+=== 組立図
 
 組立図は、Bricklink Studio で作成しました。
 
@@ -76,11 +76,11 @@ image::images/spike_transporter_container.png[width="80%"]
 .組立図のページの例
 image::images/build_instruction_sample_page.png[width="80%"]
 
-== 開発環境とプログラム
+=== 開発環境とプログラム
 
 自動荷物運搬車のソフトウェアの開発環境、サンプルプログラム、サンプルプログラムの動作の様子です。
 
-=== 開発環境
+==== 開発環境
 
 プログラムの開発には、LEGO Education SPIKEアプリケーション <<spike_app>> を使いました。
 
@@ -89,7 +89,7 @@ NOTE: もちろん、SPIKEのラージハブで利用できるのでしたら、
 プログラミング方法は、Scratchと同じようなものです。
 ただし、Scratchとは異なり、SPIKEのハブを操作する、センサーからや値を取得する、モーターを動かすといったブロックが用意されています。
 
-=== サンプルプログラム
+==== サンプルプログラム
 
 サンプルプログラムは、次の通りです。
 
@@ -100,7 +100,7 @@ image::images/spike_transporter_program01.png[width="60%"]
 NOTE: この画像ではなく、プログラム自体を共有する方法があれば教えてください。
 
 
-=== サンプルプログラムの動作
+==== サンプルプログラムの動作
 
 荷物を受け取り、経路に沿って配達先まで荷物（コンテナ）を運搬するロボットです。
 次のような手順で動作します。
@@ -118,7 +118,7 @@ NOTE: この画像ではなく、プログラム自体を共有する方法が�
 .サンプルプログラムのステートマシン図
 image::images/spike_transporter_statemachine.png[width=80%]
 
-=== 実行時の動画
+==== 実行時の動画
 
 前半は荷物を運搬する動作、後半は荷物が落ちた場合の動作です。
 
@@ -133,7 +133,7 @@ GitHubのプレビューでは `adoc` ファイルのYouTubeタグが処理さ�
 * https://www.youtube.com/watch?v=nSAXWkLJDxE
 ====
 
-== コンテンツの構造
+=== コンテンツの構造
 
 [source,console]
 ----
@@ -143,7 +143,7 @@ spike_transporter
 ----
 
 [bibliography]
-== 文献やリンク
+=== 文献やリンク
 
 - [[[spike]]] LEGO SPIKE PRIME
 ** https://education.lego.com/en-us/products/lego-education-spike-prime-set/45678/

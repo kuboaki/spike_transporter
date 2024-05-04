@@ -1,6 +1,6 @@
-[English](link:README.adoc[]) | [日本語](link:README_ja.adoc[])
+[English](link:README.html[]) | [日本語](link:README_ja.html[])
 
-= SPIKE Transporter
+== SPIKE Transporter
 
 [.lead]
 "Spike Transporter" is the auto transportation vehicle using LEGO SPIKE PRIME <<spike>>  kit.
@@ -17,18 +17,18 @@ Check out my gallery on Bricklink <<bricklink_my_page>> for similar information.
 .Transporter using LEGO SPIKE PRIME kit
 image::movies_photos/spike_transporter_front.jpeg[width="60%"]
 
-== Motivation
+=== Motivation
 
 
 I used the LEGO Mindstorms EV3 <<ev3>> kit to build an auto transporter and use it in lectures and training.
 However, EV3 will be discontinued in 2021 and will be difficult to obtain in the future.
 Therefore, I decided to create a similar transporter "Spike Transporter" using the LEGO SPIKE PRIME kit, which is the successor product.
 
-== Structure of spike transporter
+=== Structure of spike transporter
 
 This vehicle consists of several units.
 
-=== Base unit
+==== Base unit
 
 The base unit is a drive unit that runs on two main wheels and a rear ball.
 
@@ -37,7 +37,7 @@ This unit is used a SPIKE's large hub and two medium motors.
 .Base unit
 image::images/spike_transporter_base.png[width="60%"]
 
-=== Line monitor
+==== Line monitor
 
 The line monitor unit is watcher the transportation route(black line) for the transporter running.
 
@@ -47,7 +47,7 @@ This unit is used a SPIKE's color sensor.
 image::images/spike_transporter_linemon.png[width="60%"]
 
 
-=== Wall Detector
+==== Wall Detector
 
 The wall detector unit recognizes side walls of delivery destinations and garages.
 
@@ -56,7 +56,7 @@ This unit is used a SPIKE's ultrasonic sensor.
 .Wall detecotor
 image::images/spike_transporter_walldetector.png[width="40%"]
 
-=== Carrier and Container
+==== Carrier and Container
 
 The carrier unit is a place where cargo (container) is loaded. It monitors whether there is cargo or not.
 
@@ -70,7 +70,7 @@ a|.Cargo(Container)
 image::images/spike_transporter_container.png[width="80%"]
 |===
 
-== Building instruction
+=== Building instruction
 
 Building instruction were created using "Bricklink Studio".
 
@@ -79,12 +79,12 @@ Building instruction were created using "Bricklink Studio".
 .sample pages of the building instruction
 image::images/build_instruction_sample_page.png[width="80%"]
 
-== Development environment and Program
+=== Development environment and Program
 
 Here is the software development environment and sample program for Spike Transporter.
 It also shows how the sample program works.
 
-=== Development environment
+==== Development environment
 
 We used the LEGO Education SPIKE application <<spike_app>> to develop the program.
 
@@ -92,7 +92,7 @@ NOTE: Of course, other programming languages ​​may be used as long as they c
 
 However, unlike Scratch, there are blocks that operate SPIKE's hub, obtain values ​​from sensors, and move motors.
 
-=== Sample Program
+==== Sample Program
 
 The sample program is as follows.
 
@@ -102,7 +102,7 @@ image::images/spike_transporter_program01.png[width="60%"]
 
 NOTE: Please let us know if there is a way to share the program itself instead of this image.
 
-=== How the sample program works
+==== How the sample program works
 
 An auto transporter is a robot vehicle that receives a cargo(container) and transports it along the route to the delivery destination.
 It works as follows:
@@ -120,7 +120,7 @@ A state machine diagram (a type of state transition diagram) looks like this:
 .Statemacine dialog of sample program(sorry, descriptions are only in japanese)
 image::images/spike_transporter_statemachine.png[width=80%]
 
-=== Demo video
+==== Demo video
 
 The first part shows normal transporting the cargo, and the next shows operation when the cargo falls.
 
@@ -135,7 +135,7 @@ GitHub preview doesn't seem to process YouTube tags in `adoc` files. Please refe
 * https://www.youtube.com/watch?v=nSAXWkLJDxE
 ====
 
-== Contents structure
+=== Contents structure
 
 [source,console]
 ----
@@ -145,7 +145,7 @@ spike_transporter
 ----
 
 [bibliography]
-== References and links
+=== References and links
 
 - [[[spike]]] LEGO SPIKE PRIME
 ** https://education.lego.com/en-us/products/lego-education-spike-prime-set/45678/
